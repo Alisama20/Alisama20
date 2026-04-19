@@ -11,6 +11,10 @@
   <a href="https://github.com/Alisama20">
     <img src="https://img.shields.io/badge/GitHub-Alisama20-181717?style=flat-square&logo=github"/>
   </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/alisama">
+    <img src="https://img.shields.io/badge/LinkedIn-alisama-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
 </p>
 
 ---
@@ -21,7 +25,6 @@ I am a physics and mathematics student with a strong interest in **computational
 
 🔵 &nbsp;**Computational Electromagnetics** — integral equation methods, scattering, wave propagation  
 🟢 &nbsp;**Monte Carlo Methods** — stochastic simulation, diffusion MC, particle-in-cell  
-⚡ &nbsp;**Kinetic Theory of Plasmas** — Vlasov–Maxwell equations, plasma instabilities  
 🔴 &nbsp;**Numerical Methods in general** — spectral methods, finite differences, integrators, FFT
 
 I enjoy working at the intersection of mathematical rigour and physical intuition, building solvers from scratch and comparing them with theoretical predictions.
@@ -57,8 +60,8 @@ Semi-Lagrangian schemes and Particle-in-Cell (PIC) Monte Carlo for the 1D Vlasov
 
 </td>
 <td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell/master/figures/twostream_fase.png" width="320"/>
-<br><sub><em>Phase space (x,v) showing BGK vortex formation in the two-stream instability</em></sub>
+<img src="https://raw.githubusercontent.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell/master/figures/twostream_campos.png" width="320"/>
+<br><sub><em>Two-stream instability: exponential growth of the electric field and electrostatic energy</em></sub>
 </td>
 </tr>
 </table>
@@ -71,8 +74,8 @@ Semi-Lagrangian schemes and Particle-in-Cell (PIC) Monte Carlo for the 1D Vlasov
 <table>
 <tr>
 <td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/MoM-electromagnetic-scattering/master/figures/RCS_3D_sphere.png" width="320"/>
-<br><sub><em>Radar cross section of a 3D PEC sphere — MoM vs Mie series</em></sub>
+<img src="https://raw.githubusercontent.com/Alisama20/MoM-electromagnetic-scattering/master/figures/RCS2DMFIE.png" width="320"/>
+<br><sub><em>Radar cross section of a 2D PEC cylinder — MFIE vs analytical solution</em></sub>
 </td>
 <td width="340">
 
@@ -99,8 +102,8 @@ Diffusion Monte Carlo (DMC) simulation of $N$ interacting bosons in a 1D harmoni
 
 </td>
 <td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Diffusion-Monte-Carlo-for-harmonic-bosons/master/figures/is_dmc_convergence.png" width="320"/>
-<br><sub><em>Ground-state energy convergence with number of walkers — importance-sampling DMC</em></sub>
+<img src="https://raw.githubusercontent.com/Alisama20/Diffusion-Monte-Carlo-for-harmonic-bosons/master/figures/E0DMCISN100.png" width="320"/>
+<br><sub><em>Ground-state energy distribution for N=100 bosons — importance-sampling DMC</em></sub>
 </td>
 </tr>
 </table>
@@ -225,8 +228,8 @@ Monte Carlo simulations of critical phenomena: KPZ universality class, scaling c
 
 </td>
 <td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Critical-and-Cooperative-Phenomena-Simulations/master/figures/colapsoRDSR.png" width="320"/>
-<br><sub><em>Scaling collapse of interface width — KPZ universality</em></sub>
+<img src="https://raw.githubusercontent.com/Alisama20/Critical-and-Cooperative-Phenomena-Simulations/master/figures/varianzasRDSR.png" width="320"/>
+<br><sub><em>Interface width variance vs time — KPZ universality class (RDSR model)</em></sub>
 </td>
 </tr>
 </table>
