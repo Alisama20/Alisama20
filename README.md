@@ -60,7 +60,7 @@ Semi-Lagrangian schemes and Particle-in-Cell (PIC) Monte Carlo for the 1D Vlasov
 
 </td>
 <td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell/master/figures/twostream_campos.png" width="320"/>
+<img src="https://raw.githubusercontent.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell/master/figures/twosteaminestability.png" width="320"/>
 <br><sub><em>Two-stream instability: exponential growth of the electric field and electrostatic energy</em></sub>
 </td>
 </tr>
