@@ -321,6 +321,27 @@ Numerical simulation of a ferroelectric RAM (FRAM) cell based on HfO₂ using th
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+### 🔴 Ising Model · Monte Carlo
+
+<table>
+<tr>
+<td width="340" align="center">
+<img src="https://raw.githubusercontent.com/Alisama20/Ising-Model-Monte-Carlo/main/figures/ising_spin_configurations.png" width="320"/>
+<br><sub><em>Typical spin configurations of the 2D Ising model at six temperatures spanning the phase transition</em></sub>
+</td>
+<td width="340">
+
+**[Ising-Model-Monte-Carlo](https://github.com/Alisama20/Ising-Model-Monte-Carlo)**
+
+Monte Carlo simulation of the 2D Ising model with Metropolis and Glauber dynamics. Validates observables against exact analytical solutions (J = 0) and the Onsager exact solution (J ≠ 0). Tracks the ferromagnetic phase transition at $T_c \approx 2.269$. Numba JIT-compiled and parallelised.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
