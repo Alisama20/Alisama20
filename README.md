@@ -279,6 +279,48 @@ Monte Carlo simulation of evolutionary dynamics in finite populations. Computes 
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+### 📡 MOSFET 1/f Noise · McWhorter Model
+
+<table>
+<tr>
+<td width="340">
+
+**[MOSFET-1f-Noise-Characterization](https://github.com/Alisama20/MOSFET-1f-Noise-Characterization)**
+
+Experimental characterization of 1/f (flicker) noise in a MOSFET using an HP 35670A FFT spectrum analyzer. Extracts oxide trap density $N_T(E_f)$ from drain current noise spectra via the McWhorter model, with and without mobility correlation. Includes transfer curve analysis and 1/f spectral fitting across 21 bias points.
+
+</td>
+<td width="340" align="center">
+<img src="https://raw.githubusercontent.com/Alisama20/MOSFET-1f-Noise-Characterization/master/figures/spectra.png" width="320"/>
+<br><sub><em>Drain current noise spectra S_Id(f) for 20 gate bias points showing 1/f behaviour</em></sub>
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+### 🧲 FRAM Cell · Landau-Khalatnikov Model
+
+<table>
+<tr>
+<td width="340" align="center">
+<img src="https://raw.githubusercontent.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation/master/figures/fram_operation.png" width="320"/>
+<br><sub><em>Full FRAM operation: Write → Wait → Read — voltage, polarisation and current readout</em></sub>
+</td>
+<td width="340">
+
+**[FRAM-Ferroelectric-Memory-Simulation](https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation)**
+
+Numerical simulation of a ferroelectric RAM (FRAM) cell based on HfO₂ using the Landau-Devonshire free energy and Landau-Khalatnikov polarisation dynamics. Simulates the P-E hysteresis loop, Write → Wait → Read operation, and the ferroelectric phase transition P_r(T) near the Curie temperature.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
