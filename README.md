@@ -41,6 +41,7 @@ I enjoy working at the intersection of mathematical rigour and physical intuitio
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
   <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
 </p>
 
 ---
