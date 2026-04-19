@@ -342,6 +342,27 @@ Monte Carlo simulation of the 2D Ising model with Metropolis and Glauber dynamic
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+### 📡 FDTD · Perfectly Matched Layers
+
+<table>
+<tr>
+<td width="340" align="center">
+<img src="https://raw.githubusercontent.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions/main/figures/pml2d_field_comparison.png" width="320"/>
+<br><sub><em>FDTD 2D: PML absorbs the wave (top) vs PEC reflections (bottom) at six time steps</em></sub>
+</td>
+<td width="340">
+
+**[FDTD-PML-Absorbing-Boundary-Conditions](https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions)**
+
+FDTD solvers for the 1D and 2D electromagnetic wave equations with Perfectly Matched Layer (PML) absorbing boundary conditions. Implements the Gedney polynomial conductivity profile with correct staggered-grid treatment and full 2D corner handling (σ = σ_x + σ_y). Validates reflection against theoretical $R_0$ vs PML width and resolution. Numba-accelerated.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
