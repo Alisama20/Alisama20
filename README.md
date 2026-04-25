@@ -363,6 +363,27 @@ FDTD solvers for the 1D and 2D electromagnetic wave equations with Perfectly Mat
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+### 🧠 Complex Networks · Neural, Social &amp; Ecological
+
+<table>
+<tr>
+<td width="340">
+
+**[Complex-Networks-Dynamics](https://github.com/Alisama20/Complex-Networks-Dynamics)**
+
+Three themes of dynamics on complex networks. **Neural networks**: McCulloch–Pitts logic gates, Hodgkin–Huxley conductance-based neuron (full 4D and reduced 2D), FitzHugh–Nagumo excitability, Tsodyks–Markram dynamic synapses, and Hopfield attractor memory with finite-temperature phase transition at T_c = 1. **Social dynamics**: voter model on Watts–Strogatz and Barabási–Albert networks, Abrams–Strogatz language competition. **Ecological networks**: niche model of food webs, trophic coherence, and May stability criterion.
+
+</td>
+<td width="340" align="center">
+<img src="https://raw.githubusercontent.com/Alisama20/Complex-Networks-Dynamics/master/figures/t4_hopfield.png" width="320"/>
+<br><sub><em>Hopfield attractor network: overlap m(T) vs temperature showing phase transition at T_c = 1</em></sub>
+</td>
+</tr>
+</table>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
