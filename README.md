@@ -384,6 +384,48 @@ Three themes of dynamics on complex networks. **Neural networks**: McCulloch–P
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+### ⚛️ Path Integral Monte Carlo · Quantum Mechanics
+
+<table>
+<tr>
+<td width="340">
+
+**[Path-Integral-Monte-Carlo](https://github.com/Alisama20/Path-Integral-Monte-Carlo)**
+
+Lattice Monte Carlo simulation of quantum mechanics in Euclidean (imaginary) time, following Creutz & Freedman (1981). Computes ground-state wavefunctions, energy levels, effective potentials, and instanton kink configurations in the double-well potential. Validated against Blankenbecler-DeGrand-Sugar benchmark. Numba JIT-compiled.
+
+</td>
+<td width="340" align="center">
+<img src="https://raw.githubusercontent.com/Alisama20/Path-Integral-Monte-Carlo/master/figures/fig_15_kink_simple.png" width="320"/>
+<br><sub><em>Single instanton kink: Metropolis path transitioning between double-well minima vs analytical tanh solution</em></sub>
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+### 🖥️ MOSFET TCAD · 180 nm Drift-Diffusion Simulation
+
+<table>
+<tr>
+<td width="340" align="center">
+<img src="https://raw.githubusercontent.com/Alisama20/MOSFET-TCAD-Sentaurus/master/figures/fig05_idvd_familia.png" width="320"/>
+<br><sub><em>ID–VD output curves for V_G = 0.3, 0.6, 0.9, 1.2 V — triode and saturation regions</em></sub>
+</td>
+<td width="340">
+
+**[MOSFET-TCAD-Sentaurus](https://github.com/Alisama20/MOSFET-TCAD-Sentaurus)**
+
+2D TCAD drift-diffusion simulation of a 180 nm n-channel MOSFET (Synopsys Sentaurus). Generates full I–V characterisation (ID–VG, ID–VD), extracts V_T, SS, g_m, I_ON/I_OFF, DIBL, and optimises the gate metal work function across four variants to maximise I_ON/I_OFF.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
