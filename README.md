@@ -1,441 +1,181 @@
-<h1 align="center">Hi, I'm Ali 👋</h1>
+# Hello, I'm Ali
 
-<p align="center">
-  <em>MSc in Physics &amp; Mathematics · University of Granada, Spain</em>
-</p>
-
-<p align="center">
-  <a href="mailto:alisalemstd@gmail.com">
-    <img src="https://img.shields.io/badge/email-alisalemstd%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Alisama20">
-    <img src="https://img.shields.io/badge/GitHub-Alisama20-181717?style=flat-square&logo=github"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/alisama">
-    <img src="https://img.shields.io/badge/LinkedIn-alisama-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
-
----
+I am a physicist and simulation developer.
 
 ## About me
 
-I am a physics and mathematics student with a strong interest in **computational methods for physical systems**. My main research areas are:
+My work is mainly focused on computational electromagnetics and device simulation, including finite element and FDTD methods, mode solvers, TCAD, RF and microwave lines and numerical validation, for applications in integrated photonics and microwave engineering. I hold an MSc in Physics and Mathematics from the University of Granada and work on open-source simulation tools at GDSFactory.
 
-🔵 &nbsp;**Computational Electromagnetics** — integral equation methods, scattering, wave propagation  
-🟢 &nbsp;**Monte Carlo Methods** — stochastic simulation, diffusion MC, particle-in-cell  
-🔴 &nbsp;**Numerical Methods in general** — spectral methods, finite differences, integrators, FFT
+### Follow me
 
-I enjoy working at the intersection of mathematical rigour and physical intuition, building solvers from scratch and comparing them with theoretical predictions.
+<a target="_blank" href="https://alisama20.github.io">
+<img src="https://img.shields.io/static/v1?label=&message=website&color=29b093&style=for-the-badge&logo=googlechrome&labelColor=555555&logoColor=white">
+</a>
+<a target="_blank" href="https://www.linkedin.com/in/alisama">
+<img src="https://img.shields.io/static/v1?label=&message=linkedin&color=0A66C2&style=for-the-badge&logo=inspire&labelColor=555555&logoColor=white">
+</a>
+<a target="_blank" href="https://github.com/Alisama20">
+<img src="https://img.shields.io/static/v1?label=&message=github&color=2088FF&style=for-the-badge&logo=github&labelColor=555555&logoColor=white">
+</a>
+<a target="_blank" href="https://github.com/Alisama20/Alisama20/blob/master/Ali_Salem_Amari_Rabah_CV_2026.pdf">
+<img src="https://img.shields.io/static/v1?label=&message=CV&color=E4572E&style=for-the-badge&logo=readme&labelColor=555555&logoColor=white">
+</a>
+<a target="_blank" href="mailto:alisalemstd@gmail.com">
+<img src="https://img.shields.io/static/v1?label=&message=email&color=D14836&style=for-the-badge&logo=gmail&labelColor=555555&logoColor=white">
+</a>
 
----
+## Code
 
-## 🛠 Tools
+I develop and contribute to open-source numerical tools, mostly in Python, for electromagnetic and photonic simulation.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Numba-00A3E0?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-</p>
+**Open source contributions**
 
----
+<a href="https://github.com/gdsfactory/gsim"><img align="right" height="120" alt="gsim" src="https://opengraph.githubassets.com/1/gdsfactory/gsim"></a>
 
-## 📂 Projects
+### gsim
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### ⚡ Collisionless Plasma · Vlasov–Maxwell
+<a href="https://github.com/gdsfactory/gsim"><img alt="" src="https://img.shields.io/static/v1?label=&message=contributor&color=2088FF&style=for-the-badge&logo=github&labelColor=555555&logoColor=white"></a>
 
-<table>
-<tr>
-<td width="340">
+*Electromagnetic simulation for photonics and electronics.*
 
-**[Collisionless-Plasma-Vlasov-Maxwell](https://github.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell)**
+[gdsfactory/gsim](https://github.com/gdsfactory/gsim)
 
-Semi-Lagrangian schemes and Particle-in-Cell (PIC) Monte Carlo for the 1D Vlasov–Maxwell system. Simulates Weibel (electromagnetic) and two-stream (electrostatic) plasma instabilities. Implements Strang splitting with cubic Catmull–Rom interpolation and FFT-based Poisson solver.
+--------------------
 
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell/master/figures/twosteaminestability.png" width="320"/>
-<br><sub><em>Two-stream instability: exponential growth of the electric field and electrostatic energy</em></sub>
-</td>
-</tr>
-</table>
+<a href="https://github.com/awslabs/palace"><img align="right" height="120" alt="Palace" src="https://opengraph.githubassets.com/1/awslabs/palace"></a>
 
----
+### Palace
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🌐 Computational Electromagnetics · Method of Moments
+<a href="https://github.com/awslabs/palace"><img alt="" src="https://img.shields.io/static/v1?label=&message=contributor&color=2088FF&style=for-the-badge&logo=github&labelColor=555555&logoColor=white"></a>
 
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/MoM-electromagnetic-scattering/master/figures/RCS2DMFIE.png" width="320"/>
-<br><sub><em>Radar cross section of a 2D PEC cylinder — MFIE vs analytical solution</em></sub>
-</td>
-<td width="340">
+*3D finite element solver for computational electromagnetics.*
 
-**[MoM-electromagnetic-scattering](https://github.com/Alisama20/MoM-electromagnetic-scattering)**
+[awslabs/palace](https://github.com/awslabs/palace)
 
-Method of Moments implementation of EFIE and MFIE for electromagnetic scattering by PEC bodies. Solves 2D cylinder (pulse and triangular basis) and 3D sphere (RWG basis functions). Validated against analytical Mie series.
+--------------------
 
-</td>
-</tr>
-</table>
+<a href="https://github.com/scikit-rf/scikit-rf"><img align="right" height="120" alt="scikit-rf" src="https://opengraph.githubassets.com/1/scikit-rf/scikit-rf"></a>
 
----
+### scikit-rf
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🎲 Quantum Monte Carlo · Harmonic Bosons
+<a href="https://github.com/scikit-rf/scikit-rf"><img alt="" src="https://img.shields.io/static/v1?label=&message=contributor&color=2088FF&style=for-the-badge&logo=github&labelColor=555555&logoColor=white"></a>
 
-<table>
-<tr>
-<td width="340">
+*RF and microwave engineering in Python.*
 
-**[Diffusion-Monte-Carlo-for-harmonic-bosons](https://github.com/Alisama20/Diffusion-Monte-Carlo-for-harmonic-bosons)**
+[scikit-rf/scikit-rf](https://github.com/scikit-rf/scikit-rf)
 
-Diffusion Monte Carlo (DMC) simulation of $N$ interacting bosons in a 1D harmonic trap. Implements both pure DMC and importance-sampling DMC with a Jastrow trial wave function. Demonstrates $1/N$ convergence of the ground-state energy.
+--------------------
 
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Diffusion-Monte-Carlo-for-harmonic-bosons/master/figures/E0DMCISN100.png" width="320"/>
-<br><sub><em>Ground-state energy distribution for N=100 bosons — importance-sampling DMC</em></sub>
-</td>
-</tr>
-</table>
+**Scientific software.** Solvers I wrote from scratch, validated against analytical or published results.
 
----
+<a href="https://github.com/Alisama20/MoM-electromagnetic-scattering"><img align="right" height="120" alt="MoM-electromagnetic-scattering" src="https://raw.githubusercontent.com/Alisama20/MoM-electromagnetic-scattering/master/figures/RCS2DMFIE.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🌊 Quantum Dynamics · Time-Dependent Schrödinger Equation
+### MoM-electromagnetic-scattering
 
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Crank-Nicolson-solution-of-the-time-dependent-Schrodinger-equation/master/figures/wavepacket_high.png" width="320"/>
-<br><sub><em>Gaussian wave packet scattering off a rectangular barrier</em></sub>
-</td>
-<td width="340">
+<a href="https://github.com/Alisama20/MoM-electromagnetic-scattering"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-**[Crank-Nicolson-TDSE](https://github.com/Alisama20/Crank-Nicolson-solution-of-the-time-dependent-Schrodinger-equation)**
+*Method of Moments for EM scattering by PEC cylinders and spheres.*
 
-Cayley (Crank–Nicolson) integrator for the 1D time-dependent Schrödinger equation. Exact norm conservation, transmission coefficient $T(\lambda)$ vs analytical formula, and Monte Carlo quantum measurement simulation.
+[Alisama20/MoM-electromagnetic-scattering](https://github.com/Alisama20/MoM-electromagnetic-scattering)
 
-</td>
-</tr>
-</table>
+--------------------
 
----
+<a href="https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions"><img align="right" height="120" alt="FDTD-PML-Absorbing-Boundary-Conditions" src="https://raw.githubusercontent.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions/main/figures/pml2d_field_comparison.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 📐 Spectral Methods · Helmholtz Equation
+### FDTD-PML-Absorbing-Boundary-Conditions
 
-<table>
-<tr>
-<td width="340">
+<a href="https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-**[Chebyshev-Spectral-Galerkin-Helmholtz](https://github.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation)**
+*FDTD solvers in 1D and 2D with perfectly matched layers.*
 
-Chebyshev spectral–Galerkin discretisation of the 2D Helmholtz equation. Includes full theoretical derivation of the weak formulation, construction of basis functions satisfying Dirichlet BCs, Kronecker-product matrix assembly, and exponential convergence study.
+[Alisama20/FDTD-PML-Absorbing-Boundary-Conditions](https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions)
 
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation/master/figures/convergence.png" width="320"/>
-<br><sub><em>Exponential (spectral) convergence of the Chebyshev–Galerkin method</em></sub>
-</td>
-</tr>
-</table>
+--------------------
 
----
+<a href="https://github.com/Alisama20/MOSFET-TCAD-Sentaurus"><img align="right" height="120" alt="MOSFET-TCAD-Sentaurus" src="https://raw.githubusercontent.com/Alisama20/MOSFET-TCAD-Sentaurus/master/figures/fig05_idvd_familia.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🌌 N-body Dynamics · Molecular &amp; Planetary
+### MOSFET-TCAD-Sentaurus
 
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Verlet-algorithm-applied-to-molecular-and-planetary-dynamics/master/figures/formation_disk.png" width="320"/>
-<br><sub><em>Protoplanetary disk formation via inelastic collisions — N-body simulation</em></sub>
-</td>
-<td width="340">
+<a href="https://github.com/Alisama20/MOSFET-TCAD-Sentaurus"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-**[Verlet-algorithm-applied-to-molecular-and-planetary-dynamics](https://github.com/Alisama20/Verlet-algorithm-applied-to-molecular-and-planetary-dynamics)**
+*Drift-diffusion TCAD of a 180 nm n-channel MOSFET (Sentaurus).*
 
-Velocity-Verlet N-body integrator (Numba-accelerated) for the Solar System, planet-formation via inelastic collisions, and 2D Lennard-Jones molecular dynamics. Tracks energy conservation, radial distribution function, and temperature equilibration.
+[Alisama20/MOSFET-TCAD-Sentaurus](https://github.com/Alisama20/MOSFET-TCAD-Sentaurus)
 
-</td>
-</tr>
-</table>
+--------------------
 
----
+<a href="https://github.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation"><img align="right" height="120" alt="Chebyshev-Spectral-Galerkin-Helmholtz" src="https://raw.githubusercontent.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation/master/figures/convergence.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🔬 Quantum Transport · Nanoelectronics
+### Chebyshev-Spectral-Galerkin-Helmholtz
 
-<table>
-<tr>
-<td width="340">
+<a href="https://github.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-**[Quantum-transport-nanoelectronics](https://github.com/Alisama20/Quantum-transport-nanoelectronics)**
+*Chebyshev spectral-Galerkin solver for the 2D Helmholtz equation.*
 
-Quantum transport simulation in 1D nanostructures: particle-in-a-box, double-well potential, and ballistic MOSFET I–V characteristics. Solves the Schrödinger equation self-consistently with quantum confinement effects and computes conductance vs gate voltage.
+[Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helm…](https://github.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation)
 
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Quantum-transport-nanoelectronics/master/figures/mosfet_iv_family.png" width="320"/>
-<br><sub><em>MOSFET I–V family of curves with quantum confinement</em></sub>
-</td>
-</tr>
-</table>
+--------------------
 
----
+<a href="https://github.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell"><img align="right" height="120" alt="Collisionless-Plasma-Vlasov-Maxwell" src="https://raw.githubusercontent.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell/master/figures/twosteaminestability.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🪐 Celestial Mechanics · Restricted Three-Body Problem
+### Collisionless-Plasma-Vlasov-Maxwell
 
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Earth-Moon-Spacecraft-or-Meteorite-restricted-three-body-problem/master/figures/rocket_trajectory_escape.png" width="320"/>
-<br><sub><em>Spacecraft escape trajectory in the Earth–Moon rotating frame</em></sub>
-</td>
-<td width="340">
+<a href="https://github.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-**[Earth-Moon-Spacecraft-restricted-three-body](https://github.com/Alisama20/Earth-Moon-Spacecraft-or-Meteorite-restricted-three-body-problem)**
+*Semi-Lagrangian and PIC schemes for the Vlasov-Maxwell system.*
 
-Numerical integration of the circular restricted three-body problem (CR3BP) in the Earth–Moon system. Explores Lagrange points, Jacobi integral conservation, spacecraft transfer orbits, and chaotic meteorite trajectories.
+[Alisama20/Collisionless-Plasma-Vlasov-Maxwell](https://github.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell)
 
-</td>
-</tr>
-</table>
+--------------------
 
----
+<a href="https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation"><img align="right" height="120" alt="FRAM-Ferroelectric-Memory-Simulation" src="https://raw.githubusercontent.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation/master/figures/fram_operation.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 📈 Critical Phenomena &amp; Cooperative Systems
+### FRAM-Ferroelectric-Memory-Simulation
 
-<table>
-<tr>
-<td width="340">
+<a href="https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-**[Critical-and-Cooperative-Phenomena-Simulations](https://github.com/Alisama20/Critical-and-Cooperative-Phenomena-Simulations)**
+*Ferroelectric RAM cell with Landau-Khalatnikov dynamics (HfO2).*
 
-Monte Carlo simulations of critical phenomena: KPZ universality class, scaling collapse, and wetting dynamics. Extracts critical exponents via finite-size scaling and validates against theoretical predictions of the KPZ universality class.
+[Alisama20/FRAM-Ferroelectric-Memory-Simulation](https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation)
 
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Critical-and-Cooperative-Phenomena-Simulations/master/figures/varianzasRDSR.png" width="320"/>
-<br><sub><em>Interface width variance vs time — KPZ universality class (RDSR model)</em></sub>
-</td>
-</tr>
-</table>
+--------------------
 
----
+<a href="https://github.com/Alisama20/MOSFET-1f-Noise-Characterization"><img align="right" height="120" alt="MOSFET-1f-Noise-Characterization" src="https://raw.githubusercontent.com/Alisama20/MOSFET-1f-Noise-Characterization/master/figures/spectra.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🎲 FFT &amp; Quantum Physics
+### MOSFET-1f-Noise-Characterization
 
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/FFT-and-quantum-physics/master/figures/harmonic_oscillator.png" width="320"/>
-<br><sub><em>Quantum harmonic oscillator ground state via imaginary-time FFT propagation</em></sub>
-</td>
-<td width="340">
+<a href="https://github.com/Alisama20/MOSFET-1f-Noise-Characterization"><img alt="" src="https://img.shields.io/static/v1?label=&message=measurements&color=8f8f8f&style=for-the-badge&logo=keysight&labelColor=555555&logoColor=white"></a>
 
-**[FFT-and-quantum-physics](https://github.com/Alisama20/FFT-and-quantum-physics)**
+*MOSFET 1/f noise and oxide trap density (McWhorter model).*
 
-Self-contained recursive and iterative FFT implementations validated against analytical DFTs and NumPy. Applied to the quantum harmonic oscillator via FFT-based split-operator imaginary-time propagation. Includes performance benchmarks.
+[Alisama20/MOSFET-1f-Noise-Characterization](https://github.com/Alisama20/MOSFET-1f-Noise-Characterization)
 
-</td>
-</tr>
-</table>
+--------------------
 
----
+<a href="https://github.com/Alisama20/Quantum-transport-nanoelectronics"><img align="right" height="120" alt="Quantum-transport-nanoelectronics" src="https://raw.githubusercontent.com/Alisama20/Quantum-transport-nanoelectronics/master/figures/mosfet_iv_family.png"></a>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🧬 Stochastic Evolutionary Game Theory
+### Quantum-transport-nanoelectronics
 
-<table>
-<tr>
-<td width="340">
+<a href="https://github.com/Alisama20/Quantum-transport-nanoelectronics"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-**[Stochastic-Evolutionary-Game-Theory](https://github.com/Alisama20/Stochastic-Evolutionary-Game-Theory)**
+*Quantum transport in nanostructures: Schrodinger-Poisson MOSFET.*
 
-Monte Carlo simulation of evolutionary dynamics in finite populations. Computes fixation probabilities and fixation times for different game-theoretic payoff matrices, comparing stochastic results with analytical predictions from the Moran process.
+[Alisama20/Quantum-transport-nanoelectronics](https://github.com/Alisama20/Quantum-transport-nanoelectronics)
 
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Stochastic-Evolutionary-Game-Theory/master/figures/fixation_probability.png" width="320"/>
-<br><sub><em>Fixation probability vs initial frequency — Monte Carlo vs analytical Moran process</em></sub>
-</td>
-</tr>
-</table>
+--------------------
 
----
+<details>
+<summary>More projects</summary>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 📡 MOSFET 1/f Noise · McWhorter Model
+- [Crank-Nicolson-solution-of-the-time-dependent-Schrodinger-equation](https://github.com/Alisama20/Crank-Nicolson-solution-of-the-time-dependent-Schrodinger-equation): Crank-Nicolson solver for the 1D time-dependent Schrodinger equation.
+- [Verlet-algorithm-applied-to-molecular-and-planetary-dynamics](https://github.com/Alisama20/Verlet-algorithm-applied-to-molecular-and-planetary-dynamics): Velocity-Verlet N-body integrator for planetary and molecular dynamics.
+- [Earth-Moon-Spacecraft-or-Meteorite-restricted-three-body-problem](https://github.com/Alisama20/Earth-Moon-Spacecraft-or-Meteorite-restricted-three-body-problem): Restricted three-body problem in the Earth-Moon system.
+- [Ising-Model-Monte-Carlo](https://github.com/Alisama20/Ising-Model-Monte-Carlo): Monte Carlo simulation of the 2D Ising model.
+- [Diffusion-Monte-Carlo-for-harmonic-bosons](https://github.com/Alisama20/Diffusion-Monte-Carlo-for-harmonic-bosons): Diffusion Monte Carlo for interacting bosons in a harmonic trap.
+- [Path-Integral-Monte-Carlo](https://github.com/Alisama20/Path-Integral-Monte-Carlo): Lattice path integral Monte Carlo: oscillators and double-well instantons.
+- [Critical-and-Cooperative-Phenomena-Simulations](https://github.com/Alisama20/Critical-and-Cooperative-Phenomena-Simulations): Critical phenomena: KPZ universality, scaling collapse, wetting.
+- [FFT-and-quantum-physics](https://github.com/Alisama20/FFT-and-quantum-physics): FFT implementations applied to the quantum harmonic oscillator.
+- [Stochastic-Evolutionary-Game-Theory](https://github.com/Alisama20/Stochastic-Evolutionary-Game-Theory): Evolutionary dynamics in finite populations: fixation probabilities.
+- [Complex-Networks-Dynamics](https://github.com/Alisama20/Complex-Networks-Dynamics): Dynamics on neural, social and ecological networks.
 
-<table>
-<tr>
-<td width="340">
-
-**[MOSFET-1f-Noise-Characterization](https://github.com/Alisama20/MOSFET-1f-Noise-Characterization)**
-
-Experimental characterization of 1/f (flicker) noise in a MOSFET using an HP 35670A FFT spectrum analyzer. Extracts oxide trap density $N_T(E_f)$ from drain current noise spectra via the McWhorter model, with and without mobility correlation. Includes transfer curve analysis and 1/f spectral fitting across 21 bias points.
-
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/MOSFET-1f-Noise-Characterization/master/figures/spectra.png" width="320"/>
-<br><sub><em>Drain current noise spectra S_Id(f) for 20 gate bias points showing 1/f behaviour</em></sub>
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🧲 FRAM Cell · Landau-Khalatnikov Model
-
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation/master/figures/fram_operation.png" width="320"/>
-<br><sub><em>Full FRAM operation: Write → Wait → Read — voltage, polarisation and current readout</em></sub>
-</td>
-<td width="340">
-
-**[FRAM-Ferroelectric-Memory-Simulation](https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation)**
-
-Numerical simulation of a ferroelectric RAM (FRAM) cell based on HfO₂ using the Landau-Devonshire free energy and Landau-Khalatnikov polarisation dynamics. Simulates the P-E hysteresis loop, Write → Wait → Read operation, and the ferroelectric phase transition P_r(T) near the Curie temperature.
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🔴 Ising Model · Monte Carlo
-
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Ising-Model-Monte-Carlo/main/figures/ising_spin_configurations.png" width="320"/>
-<br><sub><em>Typical spin configurations of the 2D Ising model at six temperatures spanning the phase transition</em></sub>
-</td>
-<td width="340">
-
-**[Ising-Model-Monte-Carlo](https://github.com/Alisama20/Ising-Model-Monte-Carlo)**
-
-Monte Carlo simulation of the 2D Ising model with Metropolis and Glauber dynamics. Validates observables against exact analytical solutions (J = 0) and the Onsager exact solution (J ≠ 0). Tracks the ferromagnetic phase transition at $T_c \approx 2.269$. Numba JIT-compiled and parallelised.
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 📡 FDTD · Perfectly Matched Layers
-
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions/main/figures/pml2d_field_comparison.png" width="320"/>
-<br><sub><em>FDTD 2D: PML absorbs the wave (top) vs PEC reflections (bottom) at six time steps</em></sub>
-</td>
-<td width="340">
-
-**[FDTD-PML-Absorbing-Boundary-Conditions](https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions)**
-
-FDTD solvers for the 1D and 2D electromagnetic wave equations with Perfectly Matched Layer (PML) absorbing boundary conditions. Implements the Gedney polynomial conductivity profile with correct staggered-grid treatment and full 2D corner handling (σ = σ_x + σ_y). Validates reflection against theoretical $R_0$ vs PML width and resolution. Numba-accelerated.
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🧠 Complex Networks · Neural, Social &amp; Ecological
-
-<table>
-<tr>
-<td width="340">
-
-**[Complex-Networks-Dynamics](https://github.com/Alisama20/Complex-Networks-Dynamics)**
-
-Three themes of dynamics on complex networks. **Neural networks**: McCulloch–Pitts logic gates, Hodgkin–Huxley conductance-based neuron (full 4D and reduced 2D), FitzHugh–Nagumo excitability, Tsodyks–Markram dynamic synapses, and Hopfield attractor memory with finite-temperature phase transition at T_c = 1. **Social dynamics**: voter model on Watts–Strogatz and Barabási–Albert networks, Abrams–Strogatz language competition. **Ecological networks**: niche model of food webs, trophic coherence, and May stability criterion.
-
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Complex-Networks-Dynamics/master/figures/t4_hopfield.png" width="320"/>
-<br><sub><em>Hopfield attractor network: overlap m(T) vs temperature showing phase transition at T_c = 1</em></sub>
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### ⚛️ Path Integral Monte Carlo · Quantum Mechanics
-
-<table>
-<tr>
-<td width="340">
-
-**[Path-Integral-Monte-Carlo](https://github.com/Alisama20/Path-Integral-Monte-Carlo)**
-
-Lattice Monte Carlo simulation of quantum mechanics in Euclidean (imaginary) time, following Creutz & Freedman (1981). Computes ground-state wavefunctions, energy levels, effective potentials, and instanton kink configurations in the double-well potential. Validated against Blankenbecler-DeGrand-Sugar benchmark. Numba JIT-compiled.
-
-</td>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/Path-Integral-Monte-Carlo/master/figures/fig_15_kink_simple.png" width="320"/>
-<br><sub><em>Single instanton kink: Metropolis path transitioning between double-well minima vs analytical tanh solution</em></sub>
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-### 🖥️ MOSFET TCAD · 180 nm Drift-Diffusion Simulation
-
-<table>
-<tr>
-<td width="340" align="center">
-<img src="https://raw.githubusercontent.com/Alisama20/MOSFET-TCAD-Sentaurus/master/figures/fig05_idvd_familia.png" width="320"/>
-<br><sub><em>ID–VD output curves for V_G = 0.3, 0.6, 0.9, 1.2 V — triode and saturation regions</em></sub>
-</td>
-<td width="340">
-
-**[MOSFET-TCAD-Sentaurus](https://github.com/Alisama20/MOSFET-TCAD-Sentaurus)**
-
-2D TCAD drift-diffusion simulation of a 180 nm n-channel MOSFET (Synopsys Sentaurus). Generates full I–V characterisation (ID–VG, ID–VD), extracts V_T, SS, g_m, I_ON/I_OFF, DIBL, and optimises the gate metal work function across four variants to maximise I_ON/I_OFF.
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Alisama20&show_icons=true&theme=default&hide_border=true&count_private=false" height="150"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alisama20&layout=compact&hide_border=true&theme=default" height="150"/>
-</p>
-
----
-
-<p align="center">
-  <sub>University of Granada · Faculty of Sciences · Academic Year 2025/2026</sub>
-</p>
+</details>
