@@ -68,6 +68,20 @@ I develop and contribute to open-source numerical tools, mostly in Python, for e
 
 **Scientific software.** Solvers I wrote from scratch, validated against analytical or published results.
 
+<a href="https://alisama20.github.io/#tfm"><img align="right" height="240" alt="MSc thesis" src="https://alisama20.github.io/assets/tfm/tfm_triedro.png"></a>
+
+### MSc thesis: High-frequency electromagnetics in the time domain
+
+<a href="https://alisama20.github.io/#tfm"><img alt="" src="https://img.shields.io/static/v1?label=&message=MSc%20thesis&color=0A66C2&style=for-the-badge&logo=latex&labelColor=555555&logoColor=white"></a>
+
+*Time-domain scattering simulator: from an incident pulse to the scattered waveform, without solving frequency by frequency.*
+
+Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and dispersive materials as causal IIR filters. Validated against Mie, MoM and Sommerfeld references and against anechoic-chamber measurements. Radar cross section and ISAR imaging, accelerated with Numba and CUDA.
+
+[alisama20.github.io/#tfm](https://alisama20.github.io/#tfm)
+
+--------------------
+
 <a href="https://github.com/Alisama20/MoM-electromagnetic-scattering"><img align="right" height="120" alt="MoM-electromagnetic-scattering" src="https://raw.githubusercontent.com/Alisama20/MoM-electromagnetic-scattering/master/figures/RCS2DMFIE.png"></a>
 
 ### MoM-electromagnetic-scattering
