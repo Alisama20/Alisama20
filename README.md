@@ -4,7 +4,7 @@ I am a physicist and simulation developer.
 
 ## About me
 
-My work is mainly focused on computational electromagnetics and device simulation, including finite element and FDTD methods, mode solvers, TCAD, RF and microwave lines and numerical validation, for applications in integrated photonics and microwave engineering. I hold an MSc in Physics and Mathematics from the University of Granada and work on open-source simulation tools at GDSFactory.
+My work is mainly focused on computational electromagnetics and device simulation, including finite element and FDTD methods, mode solvers, TCAD, RF and microwave lines and numerical validation, for applications in integrated photonics and microwave engineering. I hold an MSc in Physics and Mathematics from the University of Granada and work on open-source simulation tools.
 
 ### Follow me
 
