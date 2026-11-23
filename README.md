@@ -36,7 +36,7 @@ I develop and contribute to open-source numerical tools, mostly in Python, for e
 
 <a href="https://github.com/gdsfactory/gsim"><img alt="" src="https://img.shields.io/static/v1?label=&message=contributor&color=2088FF&style=for-the-badge&logo=github&labelColor=555555&logoColor=white"></a>
 
-*Electromagnetic simulation for photonics and electronics.*
+Electromagnetic simulation for photonics and electronics. I contribute to its solver workflows, benchmarks and documentation.
 
 [gdsfactory/gsim](https://github.com/gdsfactory/gsim)
 
@@ -48,7 +48,7 @@ I develop and contribute to open-source numerical tools, mostly in Python, for e
 
 <a href="https://github.com/awslabs/palace"><img alt="" src="https://img.shields.io/static/v1?label=&message=contributor&color=2088FF&style=for-the-badge&logo=github&labelColor=555555&logoColor=white"></a>
 
-*3D finite element solver for computational electromagnetics.*
+3D finite element solver for computational electromagnetics. I contribute fixes and improvements upstream.
 
 [awslabs/palace](https://github.com/awslabs/palace)
 
@@ -60,13 +60,43 @@ I develop and contribute to open-source numerical tools, mostly in Python, for e
 
 <a href="https://github.com/scikit-rf/scikit-rf"><img alt="" src="https://img.shields.io/static/v1?label=&message=contributor&color=2088FF&style=for-the-badge&logo=github&labelColor=555555&logoColor=white"></a>
 
-*RF and microwave engineering in Python.*
+RF and microwave engineering in Python: network analysis, calibration and circuit modelling.
 
 [scikit-rf/scikit-rf](https://github.com/scikit-rf/scikit-rf)
 
 --------------------
 
 **Scientific software.** Solvers I wrote from scratch, validated against analytical or published results.
+
+<table>
+<tr>
+<td valign="top">
+<a href="https://alisama20.github.io/#tfm">MSc thesis: time-domain electromagnetics</a><br>
+<a href="https://github.com/Alisama20/MoM-electromagnetic-scattering">Method of Moments scattering</a><br>
+<a href="https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions">FDTD with PML</a><br>
+<a href="https://github.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation">Chebyshev spectral Helmholtz</a><br>
+<a href="https://github.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell">Vlasov-Maxwell plasma</a><br>
+<a href="https://github.com/Alisama20/Crank-Nicolson-solution-of-the-time-dependent-Schrodinger-equation">Crank-Nicolson Schrodinger</a><br>
+<a href="https://github.com/Alisama20/FFT-and-quantum-physics">FFT and quantum physics</a>
+</td>
+<td valign="top">
+<a href="https://github.com/Alisama20/MOSFET-TCAD-Sentaurus">MOSFET TCAD (Sentaurus)</a><br>
+<a href="https://github.com/Alisama20/MOSFET-1f-Noise-Characterization">MOSFET 1/f noise</a><br>
+<a href="https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation">FRAM ferroelectric memory</a><br>
+<a href="https://github.com/Alisama20/Quantum-transport-nanoelectronics">Quantum transport</a><br>
+<a href="https://github.com/Alisama20/Path-Integral-Monte-Carlo">Path integral Monte Carlo</a><br>
+<a href="https://github.com/Alisama20/Diffusion-Monte-Carlo-for-harmonic-bosons">Diffusion Monte Carlo bosons</a>
+</td>
+<td valign="top">
+<a href="https://github.com/Alisama20/Ising-Model-Monte-Carlo">Ising model Monte Carlo</a><br>
+<a href="https://github.com/Alisama20/Critical-and-Cooperative-Phenomena-Simulations">KPZ critical phenomena</a><br>
+<a href="https://github.com/Alisama20/Stochastic-Evolutionary-Game-Theory">Evolutionary game theory</a><br>
+<a href="https://github.com/Alisama20/Complex-Networks-Dynamics">Complex networks dynamics</a><br>
+<a href="https://github.com/Alisama20/Verlet-algorithm-applied-to-molecular-and-planetary-dynamics">Verlet N-body dynamics</a><br>
+<a href="https://github.com/Alisama20/Earth-Moon-Spacecraft-or-Meteorite-restricted-three-body-problem">Earth-Moon three-body problem</a>
+</td>
+</tr>
+</table>
 
 <a href="https://alisama20.github.io/#tfm"><img align="right" height="240" alt="MSc thesis" src="https://alisama20.github.io/assets/tfm/tfm_triedro.png"></a>
 
@@ -88,19 +118,19 @@ Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and disp
 
 <a href="https://github.com/Alisama20/MoM-electromagnetic-scattering"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-*Method of Moments for EM scattering by PEC cylinders and spheres.*
+Method of Moments (EFIE and MFIE) for EM scattering by PEC cylinders and spheres, validated against the Mie series.
 
 [Alisama20/MoM-electromagnetic-scattering](https://github.com/Alisama20/MoM-electromagnetic-scattering)
 
 --------------------
 
-<a href="https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions"><img align="right" height="120" alt="FDTD-PML-Absorbing-Boundary-Conditions" src="https://raw.githubusercontent.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions/main/figures/pml2d_field_comparison.png"></a>
+<a href="https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions"><img align="right" height="120" alt="FDTD-PML-Absorbing-Boundary-Conditions" src="https://raw.githubusercontent.com/Alisama20/Alisama20/master/assets/pml_right.png"></a>
 
 ### FDTD-PML-Absorbing-Boundary-Conditions
 
 <a href="https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-*FDTD solvers in 1D and 2D with perfectly matched layers.*
+FDTD solvers in 1D and 2D with perfectly matched layers; the reflection is checked against the theoretical target.
 
 [Alisama20/FDTD-PML-Absorbing-Boundary-Conditions](https://github.com/Alisama20/FDTD-PML-Absorbing-Boundary-Conditions)
 
@@ -112,7 +142,7 @@ Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and disp
 
 <a href="https://github.com/Alisama20/MOSFET-TCAD-Sentaurus"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-*Drift-diffusion TCAD of a 180 nm n-channel MOSFET (Sentaurus).*
+Drift-diffusion TCAD of a 180 nm n-channel MOSFET in Sentaurus: I-V curves, parameter extraction and work-function optimisation.
 
 [Alisama20/MOSFET-TCAD-Sentaurus](https://github.com/Alisama20/MOSFET-TCAD-Sentaurus)
 
@@ -124,7 +154,7 @@ Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and disp
 
 <a href="https://github.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-*Chebyshev spectral-Galerkin solver for the 2D Helmholtz equation.*
+Chebyshev spectral-Galerkin solver for the 2D Helmholtz equation, with exponential convergence.
 
 [Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helm…](https://github.com/Alisama20/Chebyshev-Spectral-Galerkin-Method-for-the-Helmholtz-Equation-Theory-and-Implementation)
 
@@ -136,7 +166,7 @@ Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and disp
 
 <a href="https://github.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-*Semi-Lagrangian and PIC schemes for the Vlasov-Maxwell system.*
+Semi-Lagrangian and PIC schemes for the Vlasov-Maxwell system: two-stream and Weibel instabilities.
 
 [Alisama20/Collisionless-Plasma-Vlasov-Maxwell](https://github.com/Alisama20/Collisionless-Plasma-Vlasov-Maxwell)
 
@@ -148,7 +178,7 @@ Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and disp
 
 <a href="https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-*Ferroelectric RAM cell with Landau-Khalatnikov dynamics (HfO2).*
+Ferroelectric RAM cell with Landau-Khalatnikov dynamics (HfO2): hysteresis, write and read cycle, Curie transition.
 
 [Alisama20/FRAM-Ferroelectric-Memory-Simulation](https://github.com/Alisama20/FRAM-Ferroelectric-Memory-Simulation)
 
@@ -160,7 +190,7 @@ Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and disp
 
 <a href="https://github.com/Alisama20/MOSFET-1f-Noise-Characterization"><img alt="" src="https://img.shields.io/static/v1?label=&message=measurements&color=8f8f8f&style=for-the-badge&logo=keysight&labelColor=555555&logoColor=white"></a>
 
-*MOSFET 1/f noise and oxide trap density (McWhorter model).*
+MOSFET 1/f noise measured with a spectrum analyzer; oxide trap density from the McWhorter model.
 
 [Alisama20/MOSFET-1f-Noise-Characterization](https://github.com/Alisama20/MOSFET-1f-Noise-Characterization)
 
@@ -172,7 +202,7 @@ Physical optics with ray tracing, edge diffraction (GTD, UTD, PTD, ITD) and disp
 
 <a href="https://github.com/Alisama20/Quantum-transport-nanoelectronics"><img alt="" src="https://img.shields.io/static/v1?label=&message=python&color=3776AB&style=for-the-badge&logo=python&labelColor=555555&logoColor=white"></a>
 
-*Quantum transport in nanostructures: Schrodinger-Poisson MOSFET.*
+Quantum transport in nanostructures: self-consistent Schrodinger-Poisson solver and ballistic MOSFET I-V curves.
 
 [Alisama20/Quantum-transport-nanoelectronics](https://github.com/Alisama20/Quantum-transport-nanoelectronics)
 
